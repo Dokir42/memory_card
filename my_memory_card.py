@@ -16,10 +16,10 @@ class Question():
         self.wrong3 = wrong3
 
 questions_list = [] 
-questions_list.append(Question('Что мы делаем в школе?', 'Учимся', 'Не чем', 'Отдыхаем', 'Кушаем'))
-questions_list.append(Question('Новый год это?', 'Счастье', 'Грусть', 'Салатики', 'Салют'))
-questions_list.append(Question('Какой национальности не существует? ', 'Алеуты', 'Энцы', 'Смурфы', 'Чулымцы'))
-questions_list.append(Question('Немецкая марка автомобиля', 'БМВ', 'Пежо', 'Лада', 'Форд'))
+questions_list.append(Question('Что мы делаем в школе?', 'Учимся', 'Чем то', 'Отдыхаем', 'Кушаем'))
+questions_list.append(Question('Новый год это?', 'Счастье', 'Тренировка', 'Салатики', 'Салют'))
+questions_list.append(Question('Какой национальности не существует? ', 'Алеуты', 'Шайлуйшаи', 'Смурфы', 'Чулымцы'))
+questions_list.append(Question('Немецкая марка автомобиля', 'Мерс', 'Пежо', 'Лада', 'Форд'))
 
 
 app = QApplication([])
